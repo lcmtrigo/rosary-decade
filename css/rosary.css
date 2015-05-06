@@ -1,0 +1,72 @@
+header, .counter, #hail-mary, #button {
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+div {
+	border-radius: 10px 10px;
+	margin: 0 auto;
+	overflow-y: hidden;
+}
+
+.wrapper {
+	background-color: #ddd;
+	width: 600px;
+	height: 400px;
+}
+
+.container {
+	width: 600px;
+	height: 200px;
+	text-align: center;
+	position: relative;
+}
+
+.counter {
+	padding-top: 25px;
+	text-align: center;
+}
+
+#hail-mary {
+	font-size: 1.25em;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#button {
+	display: block;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ddd;
+	color: #666;
+	border-radius: 5px 5px;
+	transition: all 0.2s ;
+	text-decoration: none;
+}
+
+.back, .forward {
+	width: 120px;
+	margin-left: 0;
+	font-size: 1.5em;
+}
+
+.reset {
+	width: 240px;
+	margin: 0 60px;
+}
+
+#button:hover {
+	background: #3E474E;
+	color: #fff;
+}
+
+.limit {
+	opacity: 0.5;
+}
+
+
+
